@@ -87,7 +87,7 @@ export default function Orphanage() {
 							</Map>
 
 							<footer>
-								<a href="">Ver rotas no Google Maps</a>
+								<a href="https://www.google.com.br/maps/preview">Ver rotas no Google Maps</a>
 							</footer>
 						</div>
 
