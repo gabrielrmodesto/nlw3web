@@ -1,20 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../images/Logotipo.svg";
+import SidebarLogin from "../../components/SidebarLogin";
+
 import "../../styles/pages/Users/login.css";
 
 function Login() {
 	return (
 		<div className="form-dashboard">
-			<aside>
-				<header>
-					<img src={logo} alt="Happy simbolo" className="logotipo" />
-				</header>
-				<footer>
-					<strong>Cruzeiro</strong>
-					<span>São Paulo</span>
-				</footer>
-			</aside>
+			<SidebarLogin />
 			<main>
 				<form>
 					<h3 className="title-form">Fazer login</h3>
