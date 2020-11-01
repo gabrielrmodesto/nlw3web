@@ -39,7 +39,7 @@ function Login() {
 							</label>
 						</div>
 
-						<Link to="/forgetpassword" id="forgetpassword">Esqueci minha senha</Link>
+						<Link to="/forgotpassword" id="forgetpassword">Esqueci minha senha</Link>
 					</div>
 					<button type="submit" className="enterButton">
 						Entrar
