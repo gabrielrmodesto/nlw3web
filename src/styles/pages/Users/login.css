@@ -113,3 +113,13 @@
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+@media (max-width: 500px){
+	.form-dashboard main {
+		height: 100vh;
+		width: 100vw;
+		display: grid;
+	}
+	.form-dashboard form .span-form{
+		padding: 0;
+	}
+}
